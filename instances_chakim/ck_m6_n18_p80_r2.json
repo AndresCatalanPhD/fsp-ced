@@ -1,0 +1,304 @@
+{
+ "name": "ck_m6_n18_p80_r2_ED",
+ "m": 6,
+ "D0": 8,
+ "Dbar": 12,
+ "battery_xy": [],
+ "meta": {
+  "family": "Cha-Kim",
+  "m": 6,
+  "n": 18,
+  "single_pct": 80,
+  "seed": 7061882,
+  "tau": 0.4,
+  "cap": 1.5,
+  "setup": [
+   3,
+   4,
+   1,
+   2,
+   1,
+   1
+  ],
+  "variant": "ED"
+ },
+ "targets": [
+  {
+   "w": 71,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 10,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      5
+     ],
+     "p": 3
+    }
+   ]
+  },
+  {
+   "w": 98,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 38,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      5
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 66,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 71,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      3
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 61,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 100,
+   "delta": 1,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      4
+     ],
+     "p": 3
+    }
+   ]
+  },
+  {
+   "w": 31,
+   "delta": 0,
+   "kind": "CK-M",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      1,
+      5
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 24,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 60,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 6
+    }
+   ]
+  },
+  {
+   "w": 99,
+   "delta": 1,
+   "kind": "CK-M",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      1,
+      2,
+      3
+     ],
+     "p": 7
+    }
+   ]
+  },
+  {
+   "w": 64,
+   "delta": 1,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      3
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 82,
+   "delta": 0,
+   "kind": "CK-M",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0,
+      4,
+      5
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 79,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 95,
+   "delta": 0,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      4
+     ],
+     "p": 3
+    }
+   ]
+  },
+  {
+   "w": 41,
+   "delta": 0,
+   "kind": "CK-M",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      1,
+      2,
+      3
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 58,
+   "delta": 1,
+   "kind": "CK-S",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      4
+     ],
+     "p": 4
+    }
+   ]
+  }
+ ]
+}

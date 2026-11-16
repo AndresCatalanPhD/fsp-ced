@@ -1,0 +1,1609 @@
+{
+ "name": "dp_m6_n40_c30_r4_ED",
+ "m": 6,
+ "D0": 22,
+ "Dbar": 33,
+ "battery_xy": [],
+ "meta": {
+  "family": "dispersed",
+  "m": 6,
+  "n": 40,
+  "tau": 0.3,
+  "seed": 8064004,
+  "short": false,
+  "reach": [
+   2,
+   4
+  ],
+  "qmax": 3,
+  "kmax": 8,
+  "cap": 1.5,
+  "variant": "ED"
+ },
+ "targets": [
+  {
+   "w": 8,
+   "delta": 4,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      3,
+      4
+     ],
+     "p": 11
+    }
+   ]
+  },
+  {
+   "w": 8,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      5
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      0,
+      5
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      2,
+      5
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      3,
+      5
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      0,
+      2,
+      5
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      0,
+      3,
+      5
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      2,
+      3,
+      5
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      0
+     ],
+     "p": 15
+    }
+   ]
+  },
+  {
+   "w": 9,
+   "delta": 2,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0,
+      2
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      0,
+      2,
+      4
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      0,
+      4
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      2,
+      4
+     ],
+     "p": 9
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "delta": 3,
+   "kind": "FA",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      3
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      0
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      0,
+      3
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "delta": 3,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2,
+      3
+     ],
+     "p": 10
+    }
+   ]
+  },
+  {
+   "w": 10,
+   "delta": 3,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0,
+      2
+     ],
+     "p": 11
+    }
+   ]
+  },
+  {
+   "w": 8,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      1
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      3
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      0,
+      1
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      0,
+      3
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      1,
+      3
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      4
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      0,
+      1,
+      3
+     ],
+     "p": 3
+    }
+   ]
+  },
+  {
+   "w": 5,
+   "delta": 2,
+   "kind": "FA",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      3
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      4
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      0,
+      3
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      0,
+      4
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      3,
+      4
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      0,
+      3,
+      4
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 9,
+   "delta": 4,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2,
+      5
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      4,
+      5
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      2,
+      4,
+      5
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      2,
+      3
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      2,
+      4
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      3,
+      5
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      2,
+      3,
+      4
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      2,
+      3,
+      5
+     ],
+     "p": 6
+    }
+   ]
+  },
+  {
+   "w": 4,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      3
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      0
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      0,
+      3
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      2,
+      3
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 10
+    },
+    {
+     "batteries": [
+      0,
+      2,
+      3
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      0,
+      2
+     ],
+     "p": 6
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      3
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      4
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      3,
+      4
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "delta": 2,
+   "kind": "FA",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      3
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      5
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      3,
+      5
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      1
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      1,
+      2
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      1,
+      3
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      1,
+      5
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "delta": 3,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0,
+      2
+     ],
+     "p": 10
+    }
+   ]
+  },
+  {
+   "w": 8,
+   "delta": 3,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      3,
+      4
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      0,
+      3
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      0,
+      4
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      0,
+      3,
+      4
+     ],
+     "p": 6
+    }
+   ]
+  },
+  {
+   "w": 2,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      5
+     ],
+     "p": 10
+    },
+    {
+     "batteries": [
+      4
+     ],
+     "p": 11
+    },
+    {
+     "batteries": [
+      2,
+      5
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      4,
+      5
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      2,
+      4
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 14
+    },
+    {
+     "batteries": [
+      2,
+      4,
+      5
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 9,
+   "delta": 4,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2,
+      5
+     ],
+     "p": 12
+    },
+    {
+     "batteries": [
+      3,
+      5
+     ],
+     "p": 12
+    },
+    {
+     "batteries": [
+      2,
+      3,
+      5
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      2,
+      3
+     ],
+     "p": 15
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      0,
+      1
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      0,
+      4
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      1
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      4
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      1,
+      4
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 10,
+   "delta": 4,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0,
+      3
+     ],
+     "p": 9
+    }
+   ]
+  },
+  {
+   "w": 4,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      1
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      3
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      1,
+      2
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      1,
+      3
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      2,
+      3
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      1,
+      2,
+      3
+     ],
+     "p": 3
+    }
+   ]
+  },
+  {
+   "w": 2,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      1
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      1,
+      4
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      4
+     ],
+     "p": 10
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "delta": 5,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2,
+      3,
+      4
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      2,
+      3
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      2,
+      4
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      3,
+      4
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      3,
+      5
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      4,
+      5
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      2,
+      5
+     ],
+     "p": 10
+    },
+    {
+     "batteries": [
+      2,
+      3,
+      5
+     ],
+     "p": 7
+    }
+   ]
+  },
+  {
+   "w": 6,
+   "delta": 1,
+   "kind": "FA",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      4
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      0,
+      4
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      0,
+      2
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      2,
+      4
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 5,
+   "delta": 3,
+   "kind": "FA",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      4
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      5
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      4,
+      5
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2
+     ],
+     "p": 15
+    },
+    {
+     "batteries": [
+      3
+     ],
+     "p": 17
+    },
+    {
+     "batteries": [
+      2,
+      3
+     ],
+     "p": 9
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      4
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      0
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      0,
+      4
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "delta": 4,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2,
+      5
+     ],
+     "p": 7
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "delta": 1,
+   "kind": "FA",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      5
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      0
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      0,
+      5
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 8,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      1
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      1,
+      2
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 5,
+   "delta": 1,
+   "kind": "FA",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      5
+     ],
+     "p": 11
+    },
+    {
+     "batteries": [
+      4
+     ],
+     "p": 13
+    },
+    {
+     "batteries": [
+      4,
+      5
+     ],
+     "p": 7
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      5
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      1,
+      5
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      2,
+      4
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      2,
+      5
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      4,
+      5
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      4
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      1
+     ],
+     "p": 7
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      4
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      1
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      0,
+      4
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      1,
+      4
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      2,
+      4
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      0,
+      1,
+      4
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      1,
+      2,
+      4
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      0
+     ],
+     "p": 9
+    }
+   ]
+  },
+  {
+   "w": 8,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      3
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      0,
+      2
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      0,
+      3
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      2,
+      3
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      0
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      0,
+      2,
+      3
+     ],
+     "p": 3
+    }
+   ]
+  },
+  {
+   "w": 6,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      4
+     ],
+     "p": 9
+    },
+    {
+     "batteries": [
+      1,
+      4
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      2,
+      4
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      1
+     ],
+     "p": 10
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 10
+    },
+    {
+     "batteries": [
+      3
+     ],
+     "p": 11
+    },
+    {
+     "batteries": [
+      1,
+      2,
+      3
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      1,
+      2,
+      4
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 5,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      1,
+      2
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      2,
+      5
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      5
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      1
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      1,
+      5
+     ],
+     "p": 4
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "delta": 4,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0,
+      2
+     ],
+     "p": 11
+    },
+    {
+     "batteries": [
+      1,
+      2
+     ],
+     "p": 11
+    },
+    {
+     "batteries": [
+      0,
+      1,
+      2
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      0,
+      1
+     ],
+     "p": 12
+    }
+   ]
+  },
+  {
+   "w": 6,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      1
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      5
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      1,
+      5
+     ],
+     "p": 5
+    }
+   ]
+  },
+  {
+   "w": 6,
+   "delta": 3,
+   "kind": "FA",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      0,
+      3
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      3
+     ],
+     "p": 8
+    }
+   ]
+  },
+  {
+   "w": 4,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 13
+    },
+    {
+     "batteries": [
+      0,
+      2
+     ],
+     "p": 8
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 17
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "delta": 5,
+   "kind": "HV",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      2,
+      5
+     ],
+     "p": 7
+    }
+   ]
+  },
+  {
+   "w": 2,
+   "delta": 0,
+   "kind": "LC",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      1
+     ],
+     "p": 5
+    },
+    {
+     "batteries": [
+      1,
+      4
+     ],
+     "p": 3
+    },
+    {
+     "batteries": [
+      4
+     ],
+     "p": 6
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 7
+    },
+    {
+     "batteries": [
+      1,
+      2
+     ],
+     "p": 4
+    },
+    {
+     "batteries": [
+      2,
+      4
+     ],
+     "p": 4
+    }
+   ]
+  }
+ ]
+}

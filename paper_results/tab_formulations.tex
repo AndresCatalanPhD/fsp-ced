@@ -1,0 +1,12 @@
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l rrr rrr@{\extracolsep\fill}}
+\toprule
+& \multicolumn{3}{c}{\textbf{Common deadline (CD)}} & \multicolumn{3}{c@{}}{\textbf{Expandable deadline (ED)}} \\
+\cmidrule{2-4}\cmidrule{5-7}
+\textbf{Model} & \textbf{\#Opt} & \textbf{Time} & \textbf{LP gap} & \textbf{\#Opt} & \textbf{Time} & \textbf{LP gap} \\
+\midrule
+DJ (disjunctive MILP) & 3/18 & 51.2 & 99.7 & 0/18 & 60.0 & 51.9 \\
+TI (time-indexed MILP) & 18/18 & 0.5 & 2.8 & 16/18 & 39.0 & 6.1 \\
+CP-P (pairwise CP model) & 18/18 & 0.2 & -- & 18/18 & 0.8 & -- \\
+CP-F (flow-shop CP model) & 18/18 & 0.2 & -- & 18/18 & 0.3 & -- \\
+\bottomrule
+\end{tabular*}

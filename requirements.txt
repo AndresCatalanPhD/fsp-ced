@@ -1,0 +1,9 @@
+ortools==9.15.6755
+highspy
+numba
+numpy
+scipy
+pandas
+matplotlib
+# optional, used for the MILPs when a license is available:
+# gurobipy

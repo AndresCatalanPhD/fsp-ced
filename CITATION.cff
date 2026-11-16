@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code or these instances, please cite them as below."
+title: "FSP-CED: code, instances and results for fire scheduling with common and expandable deadlines"
+type: software
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/AndresCatalanPhD/fsp-ced"
+keywords:
+  - scheduling
+  - logic-based Benders decomposition
+  - flow shop
+  - valid inequalities
+  - fire scheduling
+authors:
+  - family-names: Canut-de-Bon
+    given-names: Darío A.
+    affiliation: Universidad Andrés Bello
+  - family-names: Catalán
+    given-names: Andrés H.
+    affiliation: Universidad Andrés Bello
+  - family-names: Yuraszeck
+    given-names: Francisco
+    affiliation: Universidad Andrés Bello

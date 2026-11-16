@@ -1,0 +1,143 @@
+{
+ "name": "optima2017",
+ "m": 3,
+ "D0": 41,
+ "Dbar": 41,
+ "battery_xy": [],
+ "meta": {
+  "source": "Canut-de-Bon et al. (2017)"
+ },
+ "targets": [
+  {
+   "w": 10,
+   "delta": 0,
+   "kind": "",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 15
+    },
+    {
+     "batteries": [
+      1
+     ],
+     "p": 15
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 15
+    }
+   ]
+  },
+  {
+   "w": 3,
+   "delta": 0,
+   "kind": "",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0,
+      1
+     ],
+     "p": 10
+    },
+    {
+     "batteries": [
+      0,
+      2
+     ],
+     "p": 10
+    },
+    {
+     "batteries": [
+      1,
+      2
+     ],
+     "p": 10
+    }
+   ]
+  },
+  {
+   "w": 7,
+   "delta": 0,
+   "kind": "",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0,
+      1
+     ],
+     "p": 13
+    },
+    {
+     "batteries": [
+      0,
+      2
+     ],
+     "p": 13
+    },
+    {
+     "batteries": [
+      1,
+      2
+     ],
+     "p": 13
+    }
+   ]
+  },
+  {
+   "w": 9,
+   "delta": 0,
+   "kind": "",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0
+     ],
+     "p": 20
+    },
+    {
+     "batteries": [
+      1
+     ],
+     "p": 20
+    },
+    {
+     "batteries": [
+      2
+     ],
+     "p": 20
+    }
+   ]
+  },
+  {
+   "w": 15,
+   "delta": 0,
+   "kind": "",
+   "x": 0.0,
+   "y": 0.0,
+   "modes": [
+    {
+     "batteries": [
+      0,
+      1,
+      2
+     ],
+     "p": 18
+    }
+   ]
+  }
+ ]
+}
