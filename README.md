@@ -24,7 +24,8 @@ instances_large/     18 larger instances (200-300 targets)
 instances_short/     36 short-window instances (expandable deadline only)
 instances_dispersed/ 24 instances with arbitrary battery sets, capped and short windows (expandable deadline only)
 FSP_CED_Colab.ipynb  end-to-end notebook used for the paper's runs
-results/             raw results of every run reported in the paper (one JSON record per run)
+results/             raw results of every run reported in the paper (one JSON record per run);
+                     results/superseded/ holds the records of the earlier code version 2 (not used)
 paper_results/       tables, macros and figures generated from results/ by scripts/analyze.py
 ```
 ## Quick start
@@ -83,6 +84,14 @@ paper from them:
 ```
 python scripts/analyze.py --res results --out paper_results
 ```
+
+## Development history
+The decomposition was developed on the coastal, large and Cha-Kim instance sets. `results/superseded/` keeps the
+records of the earlier code version 2 on those sets (LBBD and three ablation variants, 576 runs): that version of LBBD
+proved 51 of 54 coastal and 7 of 18 large optima under an expandable deadline and handed over to the monolithic model
+in 19 of its 252 runs. Version 3, reported in the paper, replaced its subproblem by the flow shop model and added the Johnson
+and ladder inequalities. These records are not used by `scripts/analyze.py`, which reads only the files directly in
+`results/`. The short-window set was generated while version 3 was being written, and the dispersed set after the method was fixed.
 
 ## Citation
 Please cite the paper and this archive (see `CITATION.cff`; the DOI is given by Zenodo).
